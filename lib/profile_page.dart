@@ -197,7 +197,7 @@ class ProfileInfo extends StatelessWidget {
       Text(
         "I am a junior developer with interest in all areas of technology\n"
         "and always eager to broaden my skillset and knowledge.\n"
-        "If I’m not busy I’ll be found socialising playing video games or flying racing drones"
+        "If I’m not busy I’ll be found socialising playing video games or flying racing drones",
         softWrap: true,
         textScaleFactor: 1.5,
         style: TextStyle(color: Colors.white70),
