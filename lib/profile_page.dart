@@ -492,7 +492,7 @@ class MitoInfo extends StatelessWidget {
       Text(
         "I used a cryptocurrency called nano for the points of the\n"
         "network and individual users have their own crypto-wallet to \n"
-        "accept funds they must also confirm transactions with their private\n"
+        "accept funds. Users must also confirm transactions with their private\n"
         "keys for blocks to be accepted on the nano blockchain. Towards\n"
         "the end of development a third party REST API I used for the\n"
         "transmission and retrieval of new blocks shut their services down.\n\n"
@@ -522,14 +522,18 @@ class MitoInfo extends StatelessWidget {
         height: 20,
       ),
       Text(
-        "Because the groups where users commuicate are temporary\n"
+        "Because the groups where users communicate are temporary\n"
         "I created a custom animaton using Core Animation to\n"
         "trigger upon receiving a group experation message via\nMQTT.\n\n"
         "Learned to write complex UI programmatically with NSlayout\n"
-        "and Snapkit. Also used UIBezierPath to create custom shapes\nsuch as the X shaped genome button.\n\n"
+        "and Snapkit. Also I used Core Graphics and UIBezierPath\n"
+        "to create custom shapes such as the dynamic X shaped genome\nbutton.\n\n"
         "Used Elixir to implement push notifications when a user gets\n"
         "a reply.\n\n"
-        "Implemented onboarding with 'Signin with Apple' and a\ndecentralised service called Blockstack",
+        "Used Realm, Keychain and Core Data to store cryptographic private keys\n"
+        "and user preferences.\n\n"
+        "Implemented additional onboarding with 'Signin with Apple' and a\nnew decentralised service that respects "
+        "user privacy called\nBlockstack.",
         style: TextStyle(
           fontFamily: "",
           color: Colors.white60,
