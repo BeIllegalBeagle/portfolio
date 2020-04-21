@@ -371,10 +371,10 @@ class MitoInfo extends StatelessWidget {
 
   mitoScreenImage2(context) => Container(
         height: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.90
+            ? MediaQuery.of(context).size.height * 0.70
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, false),
         width: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.45
+            ? MediaQuery.of(context).size.height * 0.35
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, true),
         decoration: BoxDecoration(
           // backgroundBlendMode: BlendMode.luminosity,
@@ -391,10 +391,10 @@ class MitoInfo extends StatelessWidget {
 
   mitoScreenImage3(context) => Container(
         height: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.90
+            ? MediaQuery.of(context).size.height * 0.70
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, false),
         width: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.45
+            ? MediaQuery.of(context).size.height * 0.35
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, true),
 
         decoration: BoxDecoration(
@@ -415,10 +415,10 @@ class MitoInfo extends StatelessWidget {
 
   weatherMeScreenImage(context) => Container(
         height: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.90
+            ? MediaQuery.of(context).size.height * 0.70
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, false),
         width: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.45
+            ? MediaQuery.of(context).size.height * 0.35
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, true),
         decoration: BoxDecoration(
           // backgroundBlendMode: BlendMode.luminosity,
@@ -435,10 +435,10 @@ class MitoInfo extends StatelessWidget {
 
   weatherMeScreenImage2(context) => Container(
         height: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.90
+            ? MediaQuery.of(context).size.height * 0.70
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, false),
         width: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.45
+            ? MediaQuery.of(context).size.height * 0.35
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, true),
         decoration: BoxDecoration(
           // backgroundBlendMode: BlendMode.luminosity,
@@ -455,10 +455,10 @@ class MitoInfo extends StatelessWidget {
 
    weatherMeScreenImage3(context) => Container(
         height: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.90
+            ? MediaQuery.of(context).size.height * 0.70
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, false),
         width: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.45
+            ? MediaQuery.of(context).size.height * 0.35
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, true),
         decoration: BoxDecoration(
           // backgroundBlendMode: BlendMode.luminosity,
@@ -477,10 +477,10 @@ class MitoInfo extends StatelessWidget {
 
   rxMoviesScreenImage(context) => Container(
         height: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.90
+            ? MediaQuery.of(context).size.height * 0.70
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, false),
         width: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.45
+            ? MediaQuery.of(context).size.height * 0.35
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, true),
         decoration: BoxDecoration(
           // backgroundBlendMode: BlendMode.luminosity,
@@ -497,10 +497,10 @@ class MitoInfo extends StatelessWidget {
 
   rxMoviesScreenImage2(context) => Container(
         height: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.90
+            ? MediaQuery.of(context).size.height * 0.70
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, false),
         width: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.45
+            ? MediaQuery.of(context).size.height * 0.35
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, true),
         decoration: BoxDecoration(
           // backgroundBlendMode: BlendMode.luminosity,
