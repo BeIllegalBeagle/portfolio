@@ -8,9 +8,25 @@
       ]
     },
     {
-      "family": "GoogleSansRegular",
+      "family": "helvetica",
       "fonts": [
-        {
+       {
+          "asset": "helvetica.ttf"
+        }
+      ]
+    },
+    {
+      "family": "roboto",
+      "fonts": [
+       {
+          "asset": "Roboto-Bold.ttf"
+        }
+      ]
+    },
+    {
+      "family": "regular",
+      "fonts": [
+       {
           "asset": "GoogleSansRegular.ttf"
         }
       ]
