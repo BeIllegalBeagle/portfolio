@@ -351,10 +351,10 @@ class MitoInfo extends StatelessWidget {
 
   mitoScreenImage(context) => Container(
         height: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.90
+            ? MediaQuery.of(context).size.height * 0.70
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, false),
         width: ResponsiveWidget.isSmallScreen(context)
-            ? MediaQuery.of(context).size.height * 0.45
+            ? MediaQuery.of(context).size.height * 0.35
             : imageSizeforLargeScreen(MediaQuery.of(context).size.width, true),
         decoration: BoxDecoration(
           // backgroundBlendMode: BlendMode.luminosity,
